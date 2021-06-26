@@ -1,0 +1,432 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+footer {
+  margin: 4px;
+  text-align: center;
+  font-size: 16px;
+  padding-bottom: 5px;
+}
+
+.logo{
+width: 90px;
+cursor: pointer;
+margin: 30px 0;
+}
+
+.menu-icon{
+  width: 25px;
+  cursor:pointer;
+  display: none;
+}
+
+.container {
+width: 100%;
+min-height: 100vh;
+padding-left: 8%;
+padding-right: 8%;
+box-sizing: border-box;
+overflow: hidden;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+nav ul li a {
+  color: #000;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover{
+  color: #ff5ea2;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 0;
+}
+
+.col-1 {
+  flex-basis: 40%;
+  position: relative;
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+
+.col-1 h2 {
+  font-size: 25px;
+  font-weight: 90;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.col-1 p {
+  font-size: 16px;
+  color: black;
+  font-weight: 100;
+}
+
+.col-1 .Build1 { /* For photo */
+  width: 100%;
+  align-content: center;
+}
+
+.col-2 {
+  flex-basis: 40%;
+  position: relative;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.col-2 .Build2 { /* For photo */
+  width: 90%;
+  align-content: center;
+}
+
+.col-2 h2 {
+  font-size: 25px;
+  font-weight: 90;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.col-2 p{
+  font-size: 16px;
+  color: black;
+  font-weight: 100;
+  text-align: center;
+}
+
+.col-3 {
+  flex-basis: 40%;
+  position: relative;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.col-3 .Build3 { /* For photo */
+  width: 100%;
+  align-content: center;
+}
+
+.col-4 {
+  flex-basis: 40%;
+  position: relative;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.col-4 .Build4 { /* For photo */
+  width: 80%;
+}
+
+.col-4 h2 {
+  font-size: 20px;
+  font-weight: 90;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.col-4 p{
+  font-size: 16px;
+  color: black;
+  font-weight: 100;
+  text-align: center;
+}
+
+.col-5 {
+  flex-basis: 40%;
+  position: relative;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.col-5 .Build5 { /* For photo */
+  width: 90%;
+}
+
+.col-5 h2 {
+  font-size: 20px;
+  font-weight: 90;
+  text-decoration: underline;
+  text-align:center;
+}
+
+.col-5 p{
+  font-size: 16px;
+  color: black;
+  font-weight: 100;
+  text-align: center;
+}
+
+.col-6 {
+  flex-basis: 40%;
+  position: relative;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.col-6 .Build6 { /* For photo */
+  width: 90%;
+}
+
+.col-6 h2 {
+  font-size: 20px;
+  font-weight: 90;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.col-6 p{
+  font-size: 16px;
+  color: black;
+  font-weight: 100;
+  text-align: center;
+}
+
+.col-7 {
+  flex-basis: 40%;
+  position: relative;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.col-7 .Build7 { /* For photo */
+  width: 90%;
+}
+
+.col-7 h2 {
+  font-size: 20px;
+  font-weight: 90;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.col-7 p{
+  font-size: 16px;
+  color: black;
+  font-weight: 100;
+  align-content: center;
+}
+
+.col-8 {
+  flex-basis: 40%;
+  position: relative;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.col-8 .Build8 { /* For photo */
+  width: 90%;
+}
+
+.col-8 h2 {
+  font-size: 20px;
+  font-weight: 90;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.col-8 p{
+  font-size: 16px;
+  color: black;
+  font-weight: 100;
+  align-content: center;
+}
+
+.col-9 {
+  flex-basis: 40%;
+  position: relative;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.col-9 .Build9 { /* For photo */
+  width: 80%;
+}
+
+.col-9 h2 {
+  font-size: 20px;
+  font-weight: 90;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.col-9 p{
+  font-size: 16px;
+  color: black;
+  font-weight: 100;
+  align-content: center;
+}
+
+@media only screen and (max-width:700px){
+
+  navl ul{
+    width: 100%;
+    background:linear-gradient(#ff54a2, #ff575a);
+    position: absolute;
+    top:75px;
+    right: 0;
+    z-index:2;
+  }
+
+  footer {
+    font-size: 12px;
+    padding-bottom: 5px;
+  }
+
+nav ul li {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+nav ul li a {
+  color:black;
+}
+
+.menu-icon {
+  display: block;
+}
+
+#menuList{
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.row {
+  flex-direction: column-reverse;
+  margin: 50px 0;
+}
+
+.col-1 .col-2 .col-3 .col-4 .col-5 .col-6 .col-7 .col-8 .col-9 {
+  flex-basis: 100%;
+  margin-bottom: 50px;
+}
+
+.col-1 .Build1{
+  width: 80%;
+}
+
+.col-2 .Build2{
+  width: 80%;
+}
+
+.col-3 .Build3{
+  width: 60%;
+}
+
+.col-4 .Build4{
+  width: 80%;
+}
+
+.col-5 .Build5{
+  width: 80%;
+}
+
+
+.col-6 .Build6{
+  width: 80%;
+}
+
+.col-7 .Build7{
+  width: 80%;
+}
+
+
+.col-8 .Build8{
+  width: 80%;
+}
+
+.col-9 .Build9{
+  width: 80%;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6,
+.col-7, .col-8, .col-9 {
+  flex-basis: 100%;
+}
+
+.col-1 h2 {
+  font-size: 18px;
+}
+
+.col-2 h2{
+   font-size: 18px;
+   }
+
+.col-3 h2 {
+    font-size: 18px;
+    }
+
+.col-4 h2 {
+    font-size: 18px;
+    }
+
+.col-5 h2 {
+  font-size: 18px;
+  }
+
+.col-6 h2 {
+  font-size: 18px;
+}
+
+.col-7 h2 {
+  font-size: 18px;
+  }
+
+.col-8 h2 {
+  font-size: 18px;
+  }
+
+.col-9 h2 {
+  font-size: 18px;
+ }
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+input[type=submit] {
+  background-color: #000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
